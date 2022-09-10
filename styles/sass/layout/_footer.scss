@@ -7,7 +7,7 @@
         background-image: url(../../../img/Footer-BG.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 8.5%;
+        margin: 8.5% 8.5% 0;
         padding: 8% 0;
         border-radius: 24px;
         
@@ -54,5 +54,48 @@
         }
 
         @import "../components/light-button";
+    }
+
+    .footer-content {
+        background-image: url(../../../img/Footer-Content-BG.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 10% 10%;
+
+        &__logo {
+            padding-top: 45%;
+        }
+
+        &__text {
+            color: $color-deactive;
+            padding: 15% 7%;
+            line-height: 1.75rem;
+        }
+
+        &__select {
+            display: inline-block;
+            background-color: transparent;
+            width: 100%;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid $color-stroke;
+            color: $color-body-light;
+        }
+
+        &__social-list {
+            display: flex;
+            justify-content: center;
+            padding: 15% 0;
+
+            & li {
+                margin-left: 8px;
+            }
+        }
+
+        &__copyright {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: $color-deactive;
+        }
     }
 }

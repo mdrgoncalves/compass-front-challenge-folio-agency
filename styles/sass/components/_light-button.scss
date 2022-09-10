@@ -1,0 +1,10 @@
+@import "../abstracts/variables.css";
+@import "button";
+
+.light-button {
+    @extend .button;
+    display: inline-block;
+    background-color: $color-white;
+    color: $color-button;
+    width: 70%;
+}

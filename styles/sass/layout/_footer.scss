@@ -1,0 +1,57 @@
+@import "../abstracts/variables.scss";
+
+.footer {
+    text-align: center;
+
+    .footer-contact {
+        background-image: url(../../../img/Footer-BG.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 8.5%;
+        padding: 8% 0;
+        border-radius: 24px;
+        
+        &__hello {
+            border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+        }
+
+        &__bubble {
+            width: 73px;
+            height: 65px;
+            background-image: url(../../../img/Speach-bubble.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: inline-block;
+            margin: 12.8% 0 0 15%;
+        }
+
+        &__text {
+            color: $color-white;
+            font-size: 0.875rem;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+
+            &::before {
+                content: "👋";
+                font-size: 0.875rem;
+            }
+        }
+
+        &__subtitle {
+            color: $color-white;
+            font-size: 1.125rem;
+            line-height: 1.5rem;
+            padding: 12% 12% 10% 12%;
+        }
+
+        &__title {
+            color: $color-white;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 2.5rem;
+            padding: 15% 10%;
+        }
+        
+    }
+}

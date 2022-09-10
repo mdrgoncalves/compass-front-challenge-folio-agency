@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
     v2.0 | 20110126
     License: none (public domain)
@@ -96,3 +97,51 @@ html {
   color: #FFFFFF;
   border-radius: 8px;
 }
+
+.footer {
+  text-align: center;
+}
+.footer .footer-contact {
+  background-image: url(../../../img/Footer-BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8.5%;
+  padding: 8% 0;
+  border-radius: 24px;
+}
+.footer .footer-contact__hello {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer .footer-contact__bubble {
+  width: 73px;
+  height: 65px;
+  background-image: url(../../../img/Speach-bubble.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin: 12.8% 0 0 15%;
+}
+.footer .footer-contact__text {
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.footer .footer-contact__text::before {
+  content: "👋";
+  font-size: 0.875rem;
+}
+.footer .footer-contact__subtitle {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  padding: 12% 12% 10% 12%;
+}
+.footer .footer-contact__title {
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  padding: 15% 10%;
+}/*# sourceMappingURL=app.css.map */

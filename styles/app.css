@@ -72,4 +72,19 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 2rem;
+}
+
+.hero-section {
+  padding: 0 3rem;
+}
+.hero-section__title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: #232340;
+}
+.hero-section__text {
+  padding: 2rem 0;
+  line-height: 1.75rem;
+  color: #606060;
 }/*# sourceMappingURL=app.css.map */

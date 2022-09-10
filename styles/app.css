@@ -89,7 +89,7 @@ html {
   line-height: 1.75rem;
   color: #606060;
 }
-.hero-section .button {
+.hero-section .button, .hero-section .footer .footer-contact .light-button, .footer .footer-contact .hero-section .light-button {
   background-color: #5468E7;
   padding: 1rem 1.5rem;
   font-weight: 600;
@@ -108,6 +108,7 @@ html {
   margin: 8.5%;
   padding: 8% 0;
   border-radius: 24px;
+  @import "../abstracts/variables.css";
 }
 .footer .footer-contact__hello {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -144,4 +145,18 @@ html {
   font-weight: 700;
   line-height: 2.5rem;
   padding: 15% 10%;
+}
+.footer .footer-contact .button, .footer .footer-contact .light-button {
+  background-color: #5468E7;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+.footer .footer-contact .light-button {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #5468E7;
+  width: 70%;
 }/*# sourceMappingURL=app.css.map */

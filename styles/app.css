@@ -68,11 +68,50 @@ html {
   background-size: cover;
 }
 
-.header {
+.header, .menu .menu-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12.8% 8.5%;
+}
+
+.menu {
+  background-image: url(../../../img/Menu-BG.svg);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  position: fixed;
+}
+.menu--active {
+  display: block;
+}
+.menu--hidden-overflow {
+  overflow: hidden;
+}
+.menu .menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 15vh 8.5% 0;
+}
+.menu .menu-list__link {
+  color: #595976;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 15%;
+}
+.menu .menu-list__link--active {
+  color: #FFFFFF;
+}
+.menu .menu-social {
+  display: flex;
+  padding: 15vh 8.5%;
+}
+.menu .menu-social__item:not(:first-child) {
+  margin-left: 2rem;
 }
 
 .hero-section {

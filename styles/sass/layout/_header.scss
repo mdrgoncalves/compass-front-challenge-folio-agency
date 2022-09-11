@@ -1,6 +1,58 @@
+@import "../abstracts/variables.scss";
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12.8% 8.5%;
+}
+
+.menu {
+    background-image: url(../../../img/Menu-BG.svg);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    position: fixed;
+
+    &--active {
+        display: block;
+    }
+
+    &--hidden-overflow {
+        overflow: hidden;
+    }
+
+    .menu-header {
+        @extend .header;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        padding: 15vh 8.5% 0;
+
+        &__link {
+            color: $color-shade-mobile-menu;
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 700;
+            padding-bottom: 15%;
+
+            &--active {
+                color: $color-white;
+            }
+        }
+    }
+
+    .menu-social {
+        display: flex;
+        padding: 15vh 8.5%;
+
+        &__item:not(:first-child) {
+            margin-left: 2rem;
+        }
+    }
 }

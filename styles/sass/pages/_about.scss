@@ -1,11 +1,4 @@
 @import "../layout/about-container";
 @import "../layout/about-section";
-
-.about-image {
-    background-image: url(../../../img/About-IMG.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 115vw;
-}
-
+@import "../layout/about-image";
 @import "../layout/about-description";

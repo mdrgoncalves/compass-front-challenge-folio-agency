@@ -1,0 +1,12 @@
+.about-image {
+    background-image: url(../../../img/About-IMG.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 115vw;
+}
+
+.about-classification {
+    @extend .about-image;
+    background-image: url(../../../img/Brand-class.svg);
+    height: 110vw;
+}

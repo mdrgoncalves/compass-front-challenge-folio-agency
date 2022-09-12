@@ -1,0 +1,6 @@
+@import "about-container";
+
+.services-container {
+    @extend .about-container;
+    background-image: url(../../../img/Services-BG.svg);
+}

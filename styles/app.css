@@ -69,7 +69,7 @@ html {
   border-radius: 8px;
 }
 
-.hero-container, .about-container {
+.hero-container, .about-container, .services-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
@@ -237,7 +237,7 @@ html {
   color: #ADADAD;
 }
 
-.hero-container, .about-container {
+.hero-container, .about-container, .services-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
@@ -245,7 +245,7 @@ html {
   background-size: cover;
 }
 
-.about-container {
+.about-container, .services-container {
   height: auto;
   background-image: none;
 }
@@ -348,4 +348,21 @@ html {
   font-size: 0.9375rem;
   line-height: 1.75rem;
   padding: 15% 0 15%;
+}
+
+.hero-container, .about-container, .services-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../../../img/Hero-BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-container, .services-container {
+  height: auto;
+  background-image: none;
+}
+
+.services-container {
+  background-image: url(../../../img/Services-BG.svg);
 }/*# sourceMappingURL=app.css.map */

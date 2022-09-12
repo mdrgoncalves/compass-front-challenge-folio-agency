@@ -1,0 +1,21 @@
+@import "../abstracts/variables";
+@import "../components/button";
+
+.about-description {
+    padding: 15% 8.5%;
+
+    &__title {
+        color: $color-white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+    }
+
+    &__text {
+        color: $color-body-dark;
+        line-height: 1.75rem;
+        padding: 15% 0 10%;
+    }
+
+    @extend %button;
+}

@@ -334,4 +334,28 @@ html {
   background-repeat: no-repeat;
   background-size: contain;
   height: 115vw;
+}
+
+.button, .footer .footer-contact .light-button {
+  background-color: #5468E7;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.about-description {
+  padding: 15% 8.5%;
+}
+.about-description__title {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.about-description__text {
+  color: #8B8B8B;
+  line-height: 1.75rem;
+  padding: 15% 0 10%;
 }/*# sourceMappingURL=app.css.map */

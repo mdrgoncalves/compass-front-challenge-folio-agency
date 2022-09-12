@@ -60,6 +60,15 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.button, .footer .footer-contact .light-button {
+  background-color: #5468E7;
+  padding: 1rem 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
 .hero-container, .about-container {
   height: 100vh;
   width: 100vw;
@@ -128,14 +137,6 @@ html {
   line-height: 1.75rem;
   color: #606060;
 }
-.hero-section .button, .hero-section .footer .footer-contact .light-button, .footer .footer-contact .hero-section .light-button {
-  background-color: #5468E7;
-  padding: 1rem 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: #FFFFFF;
-  border-radius: 8px;
-}
 
 .footer {
   text-align: center;
@@ -187,7 +188,7 @@ html {
 }
 .footer .footer-contact .button, .footer .footer-contact .light-button {
   background-color: #5468E7;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2.5rem;
   font-weight: 600;
   text-decoration: none;
   color: #FFFFFF;
@@ -263,14 +264,6 @@ html {
   line-height: 1.75rem;
   color: #606060;
 }
-.hero-section .button, .hero-section .footer .footer-contact .light-button, .footer .footer-contact .hero-section .light-button {
-  background-color: #5468E7;
-  padding: 1rem 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: #FFFFFF;
-  border-radius: 8px;
-}
 
 .about-section {
   background-color: #232340;
@@ -334,15 +327,6 @@ html {
   background-repeat: no-repeat;
   background-size: contain;
   height: 115vw;
-}
-
-.button, .footer .footer-contact .light-button {
-  background-color: #5468E7;
-  padding: 1rem 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: #FFFFFF;
-  border-radius: 8px;
 }
 
 .about-description {

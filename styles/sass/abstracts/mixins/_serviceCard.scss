@@ -1,0 +1,7 @@
+@mixin servicesCard($url) {
+    content: "";
+    background: url($url) no-repeat;
+    height: 92px;
+    width: 92px;
+    display: inline-block;
+}

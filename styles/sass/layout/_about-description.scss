@@ -1,5 +1,4 @@
 @import "../abstracts/variables";
-@import "../components/button";
 
 .about-description {
     padding: 15% 8.5%;
@@ -16,6 +15,4 @@
         line-height: 1.75rem;
         padding: 15% 0 10%;
     }
-
-    @extend %button;
 }

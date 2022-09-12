@@ -1,0 +1,20 @@
+.circular-button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.button-left {
+    display: inline-block;
+    background-image: url(../../../img/Button-left.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 48px;
+    width: 48px;
+}
+
+.button-right {
+    @extend .button-left;
+    background-image: url(../../../img/Button-right.svg);
+    margin-left: 15px;
+}

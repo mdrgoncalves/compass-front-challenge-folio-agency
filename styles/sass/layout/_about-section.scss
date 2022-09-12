@@ -36,27 +36,6 @@
             padding: 10% 0;
         }
 
-        .circular-button {
-            background: transparent;
-            border: none;
-            padding: 0;
-        }
-
-        &__button-left {
-            display: inline-block;
-            background-image: url(../../../img/Button-left.svg);
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 48px;
-            width: 48px;
-        }
-
-        &__button-right {
-            @extend .about-header__button-left;
-            background-image: url(../../../img/Button-right.svg);
-            margin-left: 15px;
-        }
-
         &__select {
             padding: 0 15vw 0;
             background-color: transparent;

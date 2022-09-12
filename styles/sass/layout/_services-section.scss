@@ -1,0 +1,19 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins/heading";
+
+.services-section {
+    
+    .services-header {
+        padding: 5% 8.5% 10% 8.5%;
+
+        @include heading($color-button);
+
+        &__title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 3rem;
+            color: $color-dark;
+            padding: 5% 10% 0 0;
+        }
+    }
+}

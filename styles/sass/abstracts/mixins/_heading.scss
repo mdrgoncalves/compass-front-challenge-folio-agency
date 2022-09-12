@@ -1,0 +1,16 @@
+@mixin heading($color) {
+    
+    &__index {
+        color: $color;
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
+    &__heading {
+        display: inline;
+        color: $color;
+        font-size: 0.875rem;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}

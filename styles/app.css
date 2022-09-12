@@ -322,11 +322,16 @@ html {
   border: none;
 }
 
-.about-image {
+.about-image, .about-classification {
   background-image: url(../../../img/About-IMG.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 115vw;
+}
+
+.about-classification {
+  background-image: url(../../../img/Brand-class.svg);
+  height: 110vw;
 }
 
 .about-description {
@@ -340,6 +345,7 @@ html {
 }
 .about-description__text {
   color: #8B8B8B;
+  font-size: 0.9375rem;
   line-height: 1.75rem;
-  padding: 15% 0 10%;
+  padding: 15% 0 15%;
 }/*# sourceMappingURL=app.css.map */

@@ -327,4 +327,11 @@ html {
   font-size: 0.75rem;
   font-weight: 600;
   border: none;
+}
+
+.about-image {
+  background-image: url(../../../img/About-IMG.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 115vw;
 }/*# sourceMappingURL=app.css.map */

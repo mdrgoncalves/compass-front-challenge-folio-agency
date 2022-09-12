@@ -1,0 +1,7 @@
+@import "hero-container";
+
+.about-container {
+    @extend .hero-container;
+    height: auto;
+    background-image: none;
+}

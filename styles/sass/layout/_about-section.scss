@@ -1,0 +1,69 @@
+@import "../abstracts/variables";
+@import "hero-section";
+
+.about-section {
+    background-color: $color-dark;
+
+    .about-header {
+        padding: 20% 8.5% 10% 8.5%;
+
+        &__index {
+            color: $color-deactive;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        &__heading {
+            display: inline;
+            color: $color-white;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+
+        &__title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 3rem;
+            color: $color-white;
+            padding: 5% 10% 0 0;
+        }
+
+        &__buttons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10% 0;
+        }
+
+        .circular-button {
+            background: transparent;
+            border: none;
+            padding: 0;
+        }
+
+        &__button-left {
+            display: inline-block;
+            background-image: url(../../../img/Button-left.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 48px;
+            width: 48px;
+        }
+
+        &__button-right {
+            @extend .about-header__button-left;
+            background-image: url(../../../img/Button-right.svg);
+            margin-left: 15px;
+        }
+
+        &__select {
+            padding: 0 15vw 0;
+            background-color: transparent;
+            color: $color-white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: none;
+        }
+    }
+}

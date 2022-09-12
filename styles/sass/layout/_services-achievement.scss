@@ -1,0 +1,47 @@
+@import "../abstracts/variables";
+
+.services-achievement {
+    margin: 0 8%;
+
+    @include heading($color-deactive, $color-dark);
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        color: $color-dark;
+        padding: 5% 30% 20% 0;
+    }
+
+    &__number {
+        background: url(../../../img/Number-achievement.svg) no-repeat;
+        height: 110px;
+        width: 100%;
+        display: block;
+    }
+
+    &__text {
+        font-size: 1.125rem;
+        font-weight: 600;
+        display: flex;
+        gap: 15px;
+        padding: 10% 0;
+
+        &::before {
+            content: "😎";
+        }
+    }
+
+    &__carousel {
+        position: relative;
+    }
+
+    &__image {
+        background-image: url(../../../img/Phone-achievement.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 65vh;
+        width: 85vw;
+    }
+}

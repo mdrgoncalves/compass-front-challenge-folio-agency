@@ -1,14 +1,14 @@
-@mixin heading($color) {
+@mixin heading($color-index, $color-heading) {
     
     &__index {
-        color: $color;
+        color: $color-index;
         font-size: 0.875rem;
         font-weight: 600;
     }
 
     &__heading {
         display: inline;
-        color: $color;
+        color: $color-heading;
         font-size: 0.875rem;
         font-weight: 600;
         margin-left: 20px;

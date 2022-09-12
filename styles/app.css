@@ -450,4 +450,54 @@ html {
 }
 .services-objectives__card--active h5 {
   color: #FFFFFF;
+}
+
+.services-achievement {
+  margin: 0 8%;
+}
+.services-achievement__index {
+  color: #ADADAD;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.services-achievement__heading {
+  display: inline;
+  color: #232340;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.services-achievement__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #232340;
+  padding: 5% 30% 20% 0;
+}
+.services-achievement__number {
+  background: url(../../../img/Number-achievement.svg) no-repeat;
+  height: 110px;
+  width: 100%;
+  display: block;
+}
+.services-achievement__text {
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: flex;
+  gap: 15px;
+  padding: 10% 0;
+}
+.services-achievement__text::before {
+  content: "😎";
+}
+.services-achievement__carousel {
+  position: relative;
+}
+.services-achievement__image {
+  background-image: url(../../../img/Phone-achievement.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 65vh;
+  width: 85vw;
 }/*# sourceMappingURL=app.css.map */

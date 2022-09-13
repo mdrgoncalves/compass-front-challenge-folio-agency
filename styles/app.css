@@ -89,6 +89,14 @@ html {
   margin-left: 15px;
 }
 
+.work__button {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
 .hero-container, .about-container, .services-container {
   height: 100vh;
   width: 100vw;

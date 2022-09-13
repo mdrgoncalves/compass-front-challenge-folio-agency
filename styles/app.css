@@ -703,4 +703,36 @@ html {
 
 .jobs-container {
   background-image: url("../../../img/Jobs-BG.svg");
+}
+
+.jobs-header {
+  padding: 0 8.5%;
+}
+.jobs-header__index {
+  color: #5468E7;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.jobs-header__heading {
+  display: inline;
+  color: #5468E7;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.jobs-header__button {
+  width: 26%;
+  margin-top: 10%;
+}
+.jobs-header__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #232340;
+  padding: 5% 10% 10% 0;
+}
+.jobs-header__text {
+  padding: 5% 0;
+  line-height: 1.75rem;
+  color: #606060;
 }/*# sourceMappingURL=app.css.map */

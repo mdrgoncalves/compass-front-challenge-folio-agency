@@ -558,7 +558,7 @@ html {
   background-image: url("../../../img/featured-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 45vh;
   width: 100%;
   border-radius: 17.07px;
@@ -567,7 +567,7 @@ html {
   background-image: url("../../../img/first-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 45vh;
   width: 100%;
   border-radius: 17.07px;
@@ -576,7 +576,7 @@ html {
   background-image: url("../../../img/second-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 45vh;
   width: 100%;
   border-radius: 17.07px;
@@ -585,7 +585,7 @@ html {
   background-image: url("../../../img/third-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 45vh;
   width: 100%;
   border-radius: 17.07px;
@@ -594,7 +594,7 @@ html {
   background-image: url("../../../img/fourth-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 45vh;
   width: 100%;
   border-radius: 17.07px;
@@ -603,7 +603,7 @@ html {
   background-image: url("../../../img/fifth-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 45vh;
   width: 100%;
   border-radius: 17.07px;

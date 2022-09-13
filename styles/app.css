@@ -428,7 +428,7 @@ html {
 }
 
 .services-objectives {
-  margin: 0 8% 20%;
+  margin: 0 8.5% 20%;
 }
 .services-objectives__card {
   background-color: #FFFFFF;
@@ -484,7 +484,7 @@ html {
 }
 
 .services-achievement {
-  margin: 0 8%;
+  margin: 0 8.5%;
 }
 .services-achievement__index {
   color: #ADADAD;
@@ -583,7 +583,7 @@ html {
 }
 
 .portfolio {
-  padding: 12% 8% 0;
+  padding: 12% 8.5% 0;
 }
 .portfolio__image--featured {
   background-image: url("../../../img/featured-image.svg");

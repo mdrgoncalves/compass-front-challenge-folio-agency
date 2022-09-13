@@ -1,0 +1,15 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins/heading";
+
+.cta-header {
+    padding: 15% 0 0 20%;
+    @include heading($color-white, $color-white);
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+        color: $color-white;
+        padding: 10% 10% 0 0;
+    }
+}

@@ -735,4 +735,40 @@ html {
   padding: 5% 0;
   line-height: 1.75rem;
   color: #606060;
+}
+
+.jobs-cards {
+  padding: 10% 8.5% 3%;
+}
+.jobs-cards .job-card {
+  background-color: #FFFFFF;
+  height: 23.4vh;
+  border-radius: 24px;
+  margin-bottom: 8%;
+  box-shadow: 0px 0px 0px 1px #EDEDED, 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.jobs-cards .job-card__content {
+  padding: 20% 0 0 15%;
+}
+.jobs-cards .job-card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #232340;
+}
+.jobs-cards .job-card__experience {
+  color: #606060;
+  padding-top: 8%;
+}
+.jobs-cards > .job-card:first-child h5 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.jobs-cards > .job-card:first-child h5::after {
+  content: "";
+  background-image: url("../../../img/jobs-notification.svg");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
 }/*# sourceMappingURL=app.css.map */

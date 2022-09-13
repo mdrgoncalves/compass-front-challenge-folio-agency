@@ -1,0 +1,46 @@
+@import "../abstracts/variables";
+
+.jobs-cards {
+    padding: 10% 8.5% 3%;
+
+    .job-card {
+        background-color: $color-white;
+        height: 23.4vh;
+        border-radius: 24px;
+        margin-bottom: 8%;
+        box-shadow: 0px 0px 0px 1px $color-shadow, 0px 0px 50px 0px rgb(0, 0, 0, 0.1);
+
+        &__content {
+            padding: 20% 0 0 15%;
+        }
+
+        &__title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: $color-dark;
+        }
+
+        &__experience {
+            color: $color-body-light;
+            padding-top: 8%;
+        }
+    }
+
+    & > .job-card:first-child {
+
+        & h5 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            &::after {
+                content: "";
+                background-image: url("../../../img/jobs-notification.svg");
+                background-repeat: no-repeat;
+                height: 24px;
+                width: 24px;
+                display: inline-block;
+            }
+        }
+    }
+}

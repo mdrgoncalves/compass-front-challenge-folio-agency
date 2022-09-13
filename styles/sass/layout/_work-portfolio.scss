@@ -1,0 +1,30 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins/workCard";
+
+.portfolio {
+    padding: 12% 8% 0;
+
+    $childs: featured, first, second, third, fourth, fifth;
+
+    @each $child in $childs {
+        &__image--#{$child} {
+            @include workCard("../../../img/#{$child}-image.svg");
+        }
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-top: 10%;
+    }
+
+    &__text {
+        color: $color-body-light;
+        line-height: 1.75rem;
+        padding: 10% 0;
+    }
+
+    .circular-button-light img {
+        padding-bottom: 10%;
+    }
+}

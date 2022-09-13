@@ -541,4 +541,75 @@ html {
   padding: 5% 0;
   line-height: 1.75rem;
   color: #606060;
+}
+
+.portfolio {
+  padding: 12% 8% 0;
+}
+.portfolio__image--featured {
+  background-image: url("../../../img/featured-image.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45vh;
+  width: 100%;
+  border-radius: 17.07px;
+}
+.portfolio__image--first {
+  background-image: url("../../../img/first-image.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45vh;
+  width: 100%;
+  border-radius: 17.07px;
+}
+.portfolio__image--second {
+  background-image: url("../../../img/second-image.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45vh;
+  width: 100%;
+  border-radius: 17.07px;
+}
+.portfolio__image--third {
+  background-image: url("../../../img/third-image.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45vh;
+  width: 100%;
+  border-radius: 17.07px;
+}
+.portfolio__image--fourth {
+  background-image: url("../../../img/fourth-image.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45vh;
+  width: 100%;
+  border-radius: 17.07px;
+}
+.portfolio__image--fifth {
+  background-image: url("../../../img/fifth-image.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45vh;
+  width: 100%;
+  border-radius: 17.07px;
+}
+.portfolio__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 10%;
+}
+.portfolio__text {
+  color: #606060;
+  line-height: 1.75rem;
+  padding: 10% 0;
+}
+.portfolio .circular-button-light img {
+  padding-bottom: 10%;
 }/*# sourceMappingURL=app.css.map */

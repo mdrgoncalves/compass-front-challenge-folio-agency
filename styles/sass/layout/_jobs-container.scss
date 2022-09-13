@@ -1,0 +1,6 @@
+@import "about-container";
+
+.jobs-container {
+    @extend .about-container;
+    background-image: url("../../../img/Jobs-BG.svg");
+}

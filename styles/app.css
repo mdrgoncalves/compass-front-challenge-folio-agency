@@ -129,6 +129,15 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero-container, .about-container, .jobs-container, .services-container {
+    height: 90vh;
+    background-image: url(../../../img/Hero-BG-Tablet.svg);
+  }
+  .hero-container--margin {
+    margin-bottom: 10%;
+  }
+}
 .header, .menu .menu-header {
   display: flex;
   justify-content: space-between;
@@ -263,6 +272,21 @@ html {
   color: #606060;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero-section {
+    padding: 0 10%;
+  }
+  .hero-section__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    width: 50%;
+    padding-top: 3.5%;
+  }
+  .hero-section__text {
+    padding: 3% 0 6% 0;
+    width: 40%;
+  }
+}
 .footer {
   text-align: center;
 }
@@ -377,6 +401,15 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero-container, .about-container, .jobs-container, .services-container {
+    height: 90vh;
+    background-image: url(../../../img/Hero-BG-Tablet.svg);
+  }
+  .hero-container--margin {
+    margin-bottom: 10%;
+  }
+}
 .about-container, .jobs-container, .services-container {
   height: auto;
   background-image: none;
@@ -397,6 +430,21 @@ html {
   color: #606060;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero-section {
+    padding: 0 10%;
+  }
+  .hero-section__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    width: 50%;
+    padding-top: 3.5%;
+  }
+  .hero-section__text {
+    padding: 3% 0 6% 0;
+    width: 40%;
+  }
+}
 .about-section {
   background-color: #232340;
 }
@@ -479,6 +527,15 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero-container, .about-container, .jobs-container, .services-container {
+    height: 90vh;
+    background-image: url(../../../img/Hero-BG-Tablet.svg);
+  }
+  .hero-container--margin {
+    margin-bottom: 10%;
+  }
+}
 .about-container, .jobs-container, .services-container {
   height: auto;
   background-image: none;
@@ -642,6 +699,15 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero-container, .about-container, .jobs-container, .services-container {
+    height: 90vh;
+    background-image: url(../../../img/Hero-BG-Tablet.svg);
+  }
+  .hero-container--margin {
+    margin-bottom: 10%;
+  }
+}
 .about-container, .jobs-container, .services-container {
   height: auto;
   background-image: none;
@@ -799,6 +865,15 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero-container, .about-container, .jobs-container, .services-container {
+    height: 90vh;
+    background-image: url(../../../img/Hero-BG-Tablet.svg);
+  }
+  .hero-container--margin {
+    margin-bottom: 10%;
+  }
+}
 .about-container, .jobs-container, .services-container {
   height: auto;
   background-image: none;

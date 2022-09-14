@@ -115,14 +115,13 @@ html {
   font-weight: 600;
 }
 
-.hero-container, .about-container, .jobs-container, .services-container {
+.hero-container, .about-container, .jobs-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 100%;
-  width: 100vw;
 }
 
 .hero-container--margin {
@@ -130,7 +129,7 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container, .services-container {
+  .hero-container, .about-container, .jobs-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
   }
@@ -387,14 +386,13 @@ html {
   color: #ADADAD;
 }
 
-.hero-container, .about-container, .jobs-container, .services-container {
+.hero-container, .about-container, .jobs-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 100%;
-  width: 100vw;
 }
 
 .hero-container--margin {
@@ -402,7 +400,7 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container, .services-container {
+  .hero-container, .about-container, .jobs-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
   }
@@ -410,7 +408,7 @@ html {
     margin-bottom: 10%;
   }
 }
-.about-container, .jobs-container, .services-container {
+.about-container, .jobs-container {
   height: auto;
   background-image: none;
 }
@@ -627,36 +625,13 @@ html {
     padding: 5% 0 0 11.5vw;
   }
 }
-.hero-container, .about-container, .jobs-container, .services-container {
-  height: 100vh;
-  width: 100vw;
-  background-image: url(../../../img/Hero-BG.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100% 100%;
-  width: 100vw;
-}
-
-.hero-container--margin {
-  margin-bottom: 15%;
-}
-
-@media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container, .services-container {
-    height: 90vh;
-    background-image: url(../../../img/Hero-BG-Tablet.svg);
-  }
-  .hero-container--margin {
-    margin-bottom: 10%;
-  }
-}
-.about-container, .jobs-container, .services-container {
-  height: auto;
-  background-image: none;
-}
-
 .services-container {
-  background-image: url(../../../img/Services-BG.svg) !important;
+  background-image: url(../../../img/Services-BG.svg);
+  background-size: cover;
+  background-position: 100% 35%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
 }
 
 .services-header {
@@ -799,14 +774,13 @@ html {
   width: 85vw;
 }
 
-.hero-container, .about-container, .jobs-container, .services-container {
+.hero-container, .about-container, .jobs-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 100%;
-  width: 100vw;
 }
 
 .hero-container--margin {
@@ -814,7 +788,7 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container, .services-container {
+  .hero-container, .about-container, .jobs-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
   }
@@ -822,7 +796,7 @@ html {
     margin-bottom: 10%;
   }
 }
-.about-container, .jobs-container, .services-container {
+.about-container, .jobs-container {
   height: auto;
   background-image: none;
 }
@@ -965,14 +939,13 @@ html {
   padding: 10% 10% 0 0;
 }
 
-.hero-container, .about-container, .jobs-container, .services-container {
+.hero-container, .about-container, .jobs-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 100%;
-  width: 100vw;
 }
 
 .hero-container--margin {
@@ -980,7 +953,7 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container, .services-container {
+  .hero-container, .about-container, .jobs-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
   }
@@ -988,7 +961,7 @@ html {
     margin-bottom: 10%;
   }
 }
-.about-container, .jobs-container, .services-container {
+.about-container, .jobs-container {
   height: auto;
   background-image: none;
 }

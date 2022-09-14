@@ -1,6 +1,8 @@
-@import "about-container";
-
 .services-container {
-    @extend .about-container;
-    background-image: url(../../../img/Services-BG.svg) !important;
+    background-image: url(../../../img/Services-BG.svg);
+    background-size: cover;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100vw;
 }

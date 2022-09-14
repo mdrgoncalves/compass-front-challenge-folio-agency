@@ -7,6 +7,10 @@
     .about-header {
         padding: 20% 8.5% 10% 8.5%;
 
+        &__logo {
+            display: none;
+        }
+
         &__index {
             color: $color-deactive;
             font-size: 0.875rem;
@@ -43,6 +47,120 @@
             font-size: 0.75rem;
             font-weight: 600;
             border: none;
+        }
+    }
+
+    .about-tablet__select {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-section {
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+
+        display: grid; 
+        grid-template-columns: auto 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "about-select about-header about-header"
+            "about-select about-header about-header"
+            "about-select about-content about-brand"; 
+
+        background-color: $color-white;
+        height: 125vw;
+        width: 100vw;
+        background-image: url(../../../img/About-IMG-Tablet.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 100% 100%;
+    
+        .about-header {
+            padding: 15% 8.5% 10% 11.5vw;
+            grid-area: about-header;
+
+            &__logo {
+                display: inline;
+            }
+    
+            &__index {
+                font-size: 1rem;
+            }
+    
+            &__heading {
+                font-size: 1rem;
+            }
+    
+            &__title {
+                font-size: 3rem;
+                line-height: 3.5rem;
+                width: 70%;
+                display: inline-block;
+            }
+    
+            &__buttons {
+                display: inline-block; 
+                padding: 0; 
+                position: absolute;
+                margin-top: 2vh;
+            }
+    
+            &__select {
+                display: none;
+            }
+        }
+    }
+
+    .about-tablet__select {
+        display: block !important;
+        grid-area: about-select;
+        padding-left: 10vw;
+
+        .about-tablet__logo img {
+            margin-top: 13vw;
+        }
+
+        .about-tablet__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 43vw;
+            margin-top: 18.7vw;
+        }
+
+        .about-tablet__option {
+            color: $color-deactive;
+            font-size: 0.75rem;
+            font-weight: 600;
+
+            &:hover {
+                color: $color-white;
+                display: flex;
+                align-items: center;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    right: 60px;
+                    background: url(../../../img/about-line.svg) no-repeat;
+                    height: 2px;
+                    width: 30px;
+                }
+
+                &::after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    left: 35px;
+                    background: url(../../../img/about-point-line.svg) no-repeat;
+                    height: 15px;
+                    width: 150px;
+                }
+            }
         }
     }
 }

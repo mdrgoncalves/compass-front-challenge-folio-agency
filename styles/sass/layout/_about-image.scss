@@ -10,3 +10,9 @@
     background-image: url(../../../img/Brand-class.svg);
     height: 110vw;
 }
+
+@media screen and (min-width: 1024px) {
+    .about-image {
+        display: none;
+    }
+}

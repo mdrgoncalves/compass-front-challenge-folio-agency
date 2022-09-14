@@ -451,6 +451,9 @@ html {
 .about-section .about-header {
   padding: 20% 8.5% 10% 8.5%;
 }
+.about-section .about-header__logo {
+  display: none;
+}
 .about-section .about-header__index {
   color: #ADADAD;
   font-size: 0.875rem;
@@ -484,7 +487,100 @@ html {
   font-weight: 600;
   border: none;
 }
+.about-section .about-tablet__select {
+  display: none;
+}
 
+@media screen and (min-width: 1024px) {
+  .about-section {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "about-select about-header about-header" "about-select about-header about-header" "about-select about-content about-brand";
+    background-color: #FFFFFF;
+    height: 125vw;
+    width: 100vw;
+    background-image: url(../../../img/About-IMG-Tablet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+  }
+  .about-section .about-header {
+    padding: 15% 8.5% 10% 11.5vw;
+    grid-area: about-header;
+  }
+  .about-section .about-header__logo {
+    display: inline;
+  }
+  .about-section .about-header__index {
+    font-size: 1rem;
+  }
+  .about-section .about-header__heading {
+    font-size: 1rem;
+  }
+  .about-section .about-header__title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    width: 70%;
+    display: inline-block;
+  }
+  .about-section .about-header__buttons {
+    display: inline-block;
+    padding: 0;
+    position: absolute;
+    margin-top: 2vh;
+  }
+  .about-section .about-header__select {
+    display: none;
+  }
+  .about-tablet__select {
+    display: block !important;
+    grid-area: about-select;
+    padding-left: 10vw;
+  }
+  .about-tablet__select .about-tablet__logo img {
+    margin-top: 13vw;
+  }
+  .about-tablet__select .about-tablet__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 43vw;
+    margin-top: 18.7vw;
+  }
+  .about-tablet__select .about-tablet__option {
+    color: #ADADAD;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .about-tablet__select .about-tablet__option:hover {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .about-tablet__select .about-tablet__option:hover::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    background: url(../../../img/about-line.svg) no-repeat;
+    height: 2px;
+    width: 30px;
+  }
+  .about-tablet__select .about-tablet__option:hover::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    background: url(../../../img/about-point-line.svg) no-repeat;
+    height: 15px;
+    width: 150px;
+  }
+}
 .about-image, .about-classification {
   background-image: url(../../../img/About-IMG.svg);
   background-repeat: no-repeat;
@@ -497,6 +593,11 @@ html {
   height: 110vw;
 }
 
+@media screen and (min-width: 1024px) {
+  .about-image, .about-classification {
+    display: none;
+  }
+}
 .about-description {
   padding: 15% 8.5%;
 }

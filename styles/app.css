@@ -123,6 +123,10 @@ html {
   background-size: cover;
 }
 
+.hero-container--margin {
+  margin-bottom: 15%;
+}
+
 .header, .menu .menu-header {
   display: flex;
   justify-content: space-between;
@@ -292,6 +296,10 @@ html {
   background-size: cover;
 }
 
+.hero-container--margin {
+  margin-bottom: 15%;
+}
+
 .about-container, .jobs-container, .services-container {
   height: auto;
   background-image: none;
@@ -386,6 +394,10 @@ html {
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero-container--margin {
+  margin-bottom: 15%;
 }
 
 .about-container, .jobs-container, .services-container {
@@ -545,6 +557,10 @@ html {
   background-size: cover;
 }
 
+.hero-container--margin {
+  margin-bottom: 15%;
+}
+
 .about-container, .jobs-container, .services-container {
   height: auto;
   background-image: none;
@@ -694,6 +710,10 @@ html {
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero-container--margin {
+  margin-bottom: 15%;
 }
 
 .about-container, .jobs-container, .services-container {

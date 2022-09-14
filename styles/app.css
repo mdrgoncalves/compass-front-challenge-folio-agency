@@ -497,7 +497,7 @@ html {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     display: grid;
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: auto 1fr 0.9fr;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "about-select about-header about-header" "about-select about-header about-header" "about-select about-content about-brand";
     background-color: #FFFFFF;
@@ -561,6 +561,7 @@ html {
     display: flex;
     align-items: center;
     position: relative;
+    cursor: pointer;
   }
   .about-tablet__select .about-tablet__option:hover::before {
     content: "";
@@ -597,6 +598,12 @@ html {
   .about-image, .about-classification {
     display: none;
   }
+  .about-classification {
+    display: block;
+    background-image: url(../../../img/Brand-class.svg);
+    height: 100%;
+    grid-area: about-brand;
+  }
 }
 .about-description {
   padding: 15% 8.5%;
@@ -614,6 +621,12 @@ html {
   padding: 15% 0 15%;
 }
 
+@media screen and (min-width: 1024px) {
+  .about-description {
+    grid-area: about-content;
+    padding: 5% 0 0 11.5vw;
+  }
+}
 .hero-container, .about-container, .jobs-container, .services-container {
   height: 100vh;
   width: 100vw;

@@ -15,4 +15,12 @@
     .about-image {
         display: none;
     }
+
+    .about-classification {
+        @extend .about-image;
+        display: block;
+        background-image: url(../../../img/Brand-class.svg);
+        height: 100%;
+        grid-area: about-brand;
+    }
 }

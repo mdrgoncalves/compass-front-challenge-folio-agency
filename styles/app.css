@@ -488,10 +488,10 @@ html {
   width: 92px;
   display: inline-block;
 }
-.services-objectives__card--active {
+.services-objectives__card:hover {
   background-color: #5468E7;
 }
-.services-objectives__card--active h5 {
+.services-objectives__card:hover h5 {
   color: #FFFFFF;
 }
 

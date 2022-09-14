@@ -39,13 +39,12 @@
             @include servicesCard("../../../img/Communicate-icon.svg");
         }
 
-        &--active {
+        &:hover {
             background-color: $color-button;
 
             & h5 {
                 color: $color-white;
             }   
-        }
-        
+        }  
     }
 }

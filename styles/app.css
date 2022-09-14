@@ -120,7 +120,9 @@ html {
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 100%;
+  width: 100vw;
 }
 
 .hero-container--margin {
@@ -165,6 +167,9 @@ html {
 .menu .menu-list__link--active {
   color: #FFFFFF;
 }
+.menu .menu-list__button {
+  display: none;
+}
 .menu .menu-social {
   display: flex;
   padding: 15vh 8.5%;
@@ -173,6 +178,76 @@ html {
   margin-left: 2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .header, .menu .menu-header {
+    padding: 5%;
+  }
+  .header__menu {
+    display: none;
+  }
+  .menu {
+    background-image: none;
+    width: 100%;
+    height: auto;
+    position: static;
+    display: block;
+    margin-left: 15%;
+  }
+  .menu .menu-header {
+    display: none;
+  }
+  .menu .menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .menu .menu-list__link {
+    color: #8B8B8B;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0;
+  }
+  .menu .menu-list__link:first-child {
+    order: 2;
+  }
+  .menu .menu-list__link:nth-child(2) {
+    order: 1;
+  }
+  .menu .menu-list__link:nth-child(3) {
+    order: 3;
+  }
+  .menu .menu-list__link:nth-child(4) {
+    order: 4;
+  }
+  .menu .menu-list__link--notification {
+    display: flex;
+    align-items: center;
+  }
+  .menu .menu-list__link--notification::after {
+    content: "";
+    background-image: url(../../../img/jobs-notification.svg);
+    height: 24px;
+    width: 24px;
+    margin: 0 0 20px 10px;
+    display: inline-block;
+  }
+  .menu .menu-list__link:hover {
+    color: #5468E7;
+  }
+  .menu .menu-list__button {
+    display: inline-block;
+    background-color: #232340;
+    order: 5;
+  }
+  .menu .menu-list__button:hover {
+    background-color: #323259;
+  }
+  .menu .menu-social {
+    display: none;
+  }
+}
 .hero-section {
   padding: 0 8.5%;
 }
@@ -293,7 +368,9 @@ html {
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 100%;
+  width: 100vw;
 }
 
 .hero-container--margin {
@@ -393,7 +470,9 @@ html {
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 100%;
+  width: 100vw;
 }
 
 .hero-container--margin {
@@ -554,7 +633,9 @@ html {
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 100%;
+  width: 100vw;
 }
 
 .hero-container--margin {
@@ -709,7 +790,9 @@ html {
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 100%;
+  width: 100vw;
 }
 
 .hero-container--margin {

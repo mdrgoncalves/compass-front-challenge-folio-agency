@@ -100,3 +100,31 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .services-achievement {
+
+
+        &__index {
+            font-size: 1.125rem;
+        }
+
+        &__heading {
+            font-size: 1.125rem;
+        }
+    
+        &__title {
+            font-size: 2rem;
+            font-weight: 2.5rem;
+            padding: 10% 0 20% 0;
+        }
+    
+        &__text {
+            font-size: 1.5rem;
+        }
+    
+        &__image {
+            height: 50vw;
+        }
+    }
+}

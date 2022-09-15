@@ -22,8 +22,6 @@
 @media screen and (min-width: 1024px) {
     .services-header {
         padding: 11% 8.5% 9% 24.5vw;
-    
-        @include heading($color-button, $color-button);
 
         &__index {
             font-size: 1rem;
@@ -56,6 +54,28 @@
             position: absolute;
             top: 35vh;
             right: 8vw;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .services-header {
+
+        &__index {
+            font-size: 1.125rem;
+        }
+    
+        &__heading {
+            font-size: 1.125rem;
+        }
+    
+        &__title {
+            font-size: 4rem;
+            line-height: 4.5rem;
+        }
+    
+        &__buttons {
+            top: 50vh;
         }
     }
 }

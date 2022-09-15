@@ -59,6 +59,7 @@ html {
   font-size: 16px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .button, .footer .footer-contact .light-button, .light-button {
@@ -88,6 +89,11 @@ html {
 .button-right {
   background-image: url(../../../img/Button-right.svg);
   margin-left: 15px;
+}
+@media screen and (max-width: 309px) {
+  .button-right {
+    margin: 0;
+  }
 }
 
 .work__button {
@@ -868,6 +874,39 @@ html {
     width: 150px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .about-section .about-header__index {
+    font-size: 1.125rem;
+  }
+  .about-section .about-header__heading {
+    font-size: 1.125rem;
+  }
+  .about-section .about-header__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .about-section .about-header__buttons {
+    margin-top: 3vh;
+  }
+  .about-tablet__select .about-tablet__logo img {
+    margin-top: 13vw;
+  }
+  .about-tablet__select .about-tablet__container {
+    margin-top: 19.5vw;
+  }
+  .about-tablet__select .about-tablet__option {
+    font-size: 1.125rem;
+  }
+  .about-tablet__select .about-tablet__option:hover::before {
+    right: 100px;
+  }
+  .about-tablet__select .about-tablet__option:hover::after {
+    left: 50px;
+    background: url(../../../img/about-point-line-desktop.svg) no-repeat;
+    height: 16px;
+    width: 200px;
+  }
+}
 .about-image, .about-classification {
   background-image: url(../../../img/About-IMG.svg);
   background-repeat: no-repeat;
@@ -891,6 +930,11 @@ html {
     grid-area: about-brand;
   }
 }
+@media screen and (min-width: 1440px) {
+  .about-classification {
+    background-image: url(../../../img/Number-achievement-desktop.svg);
+  }
+}
 .about-description {
   padding: 15% 8.5%;
 }
@@ -911,6 +955,16 @@ html {
   .about-description {
     grid-area: about-content;
     padding: 5% 0 0 11.5vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-description__title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .about-description__text {
+    font-size: 1.125rem;
+    line-height: 2rem;
   }
 }
 .services-container {

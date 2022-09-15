@@ -5,3 +5,10 @@
     background-size: contain;
     height: 261vw;
 }
+
+@media screen and (min-width: 1024px) {
+    .cta-section {
+        background-image: url(../../../img/Cta-IMG-Tablet.svg);
+        height: 68vw;
+    }
+}

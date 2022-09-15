@@ -118,7 +118,6 @@
                 width: 49vw;
     
                 & h5 {
-                    color: $color-white;
                     font-size: 1.5rem;
                 }
     
@@ -134,5 +133,35 @@
         width: 150px;
         height: 44px;
         display: block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .jobs-cards {
+
+        .job-card__title {
+            font-size: 2rem;
+        }
+
+        .job-card__title__experience {
+            font-size: 1.125rem;
+        }
+
+    
+        .job-card {
+            height: 26vh;
+    
+            &:hover {
+                width: 49vw;
+    
+                & h5 {
+                    font-size: 2rem;
+                }
+    
+                & p {
+                    font-size: 1.125rem;
+                }
+            }
+        }
     }
 }

@@ -37,3 +37,30 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .cta-header {
+        padding: 17% 0 0 51.1%;
+
+        &__index {
+            font-size: 1.125rem;
+        }
+    
+        &__heading {
+            font-size: 1.125rem;
+        }
+    
+        &__title {
+            font-size: 4rem;
+            line-height: 4.5rem;
+            padding: 6% 10% 0 0;
+            width: 52.5%;
+        }
+
+        &__button {
+            width: 20%;
+            margin-top: 7%;
+            padding: 20px 0px 20px 60px;
+        }
+    }
+}

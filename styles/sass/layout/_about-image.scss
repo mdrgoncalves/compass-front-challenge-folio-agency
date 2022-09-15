@@ -24,3 +24,11 @@
         grid-area: about-brand;
     }
 }
+
+@media screen and (min-width: 1440px) {
+
+    .about-classification {
+        background-image: url(../../../img/Number-achievement-desktop.svg);
+    }
+}
+

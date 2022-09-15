@@ -24,3 +24,18 @@
         padding: 5% 0 0 11.5vw;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .about-description {
+    
+        &__title {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+    
+        &__text {
+            font-size: 1.125rem;
+            line-height: 2rem;
+        }
+    }
+}

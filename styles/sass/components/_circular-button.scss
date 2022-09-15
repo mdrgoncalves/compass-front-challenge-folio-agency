@@ -17,4 +17,9 @@
     @extend .button-left;
     background-image: url(../../../img/Button-right.svg);
     margin-left: 15px;
+
+    
+    @media screen and (max-width: 309px) {
+        margin: 0;
+    }
 }

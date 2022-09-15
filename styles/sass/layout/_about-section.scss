@@ -37,7 +37,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 10% 0;
+            padding: 10% 0
         }
 
         &__select {
@@ -160,6 +160,60 @@
                     background: url(../../../img/about-point-line.svg) no-repeat;
                     height: 15px;
                     width: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-section {
+    
+        .about-header {
+    
+            &__index {
+                font-size: 1.125rem;
+            }
+    
+            &__heading {
+                font-size: 1.125rem;
+            }
+    
+            &__title {
+                font-size: 4rem;
+                line-height: 4.5rem;
+            }
+    
+            &__buttons {
+                margin-top: 3vh;
+            }
+        }
+    }
+
+    .about-tablet__select {
+
+        .about-tablet__logo img {
+            margin-top: 13vw;
+        }
+
+        .about-tablet__container {
+            margin-top: 19.5vw;
+        }
+
+        .about-tablet__option {
+            font-size: 1.125rem;
+
+            &:hover {
+
+                &::before {
+                    right: 100px;
+                }
+
+                &::after {
+                    left: 50px;
+                    background: url(../../../img/about-point-line-desktop.svg) no-repeat;
+                    height: 16px;
+                    width: 200px;
                 }
             }
         }

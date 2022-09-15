@@ -1,9 +1,9 @@
 .hero-container {
-    height: 100vh;
+    height: max(821px, 100vh);
     width: 100vw;
     background-image: url(../../../img/Hero-BG.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: 100% 100%;
 }
 
@@ -11,13 +11,32 @@
     margin-bottom: 15%;
 }
 
+@media screen and (min-width: 768px) {
+    .hero-container {
+        height: 130vh;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .hero-container {
         height: 90vh;
         background-image: url(../../../img/Hero-BG-Tablet.svg);
+        background-position: center;
     }
     
     .hero-container--margin {
         margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-container {
+        height: max(1024px, 120vh);
+        background-image: url(../../../img/Hero-BG-Desktop.png);
+        background-position: center;
+    }
+    
+    .hero-container--margin {
+        margin-bottom: 5%;
     }
 }

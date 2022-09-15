@@ -31,6 +31,50 @@
         &__text {
             padding: 3% 0 6% 0;
             width: 40%;
+            position: relative;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 150px;
+                height: 44px;
+                background-image: url(../../../img/hero-down-button-tablet.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolute;
+                top: 27vw;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-section {
+        padding: 0 10%;
+    
+        &__title {
+            font-size: 5.25rem;
+            line-height: 6.265rem;
+            width: 40%;
+            padding-top: 3.5% ;
+        }
+    
+        &__text {
+            font-size: 1.125rem;
+            padding: 3% 0 6% 0;
+            width: 34%;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 158px;
+                height: 48px;
+                background-image: url(../../../img/hero-down-button-desktop.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolute;
+                top: 26vw;
+            }
         }
     }
 }

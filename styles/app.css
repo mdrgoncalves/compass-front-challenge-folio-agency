@@ -125,11 +125,11 @@ html {
 }
 
 .hero-container, .about-container {
-  height: 100vh;
+  height: max(821px, 100vh);
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 100% 100%;
 }
 
@@ -137,13 +137,29 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-container, .about-container {
+    height: 130vh;
+  }
+}
 @media screen and (min-width: 1024px) {
   .hero-container, .about-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
+    background-position: center;
   }
   .hero-container--margin {
     margin-bottom: 10%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-container, .about-container {
+    height: max(1024px, 120vh);
+    background-image: url(../../../img/Hero-BG-Desktop.png);
+    background-position: center;
+  }
+  .hero-container--margin {
+    margin-bottom: 5%;
   }
 }
 .header, .menu .menu-header {
@@ -293,6 +309,45 @@ html {
   .hero-section__text {
     padding: 3% 0 6% 0;
     width: 40%;
+    position: relative;
+  }
+  .hero-section__text::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 44px;
+    background-image: url(../../../img/hero-down-button-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 27vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    padding: 0 10%;
+  }
+  .hero-section__title {
+    font-size: 5.25rem;
+    line-height: 6.265rem;
+    width: 40%;
+    padding-top: 3.5%;
+  }
+  .hero-section__text {
+    font-size: 1.125rem;
+    padding: 3% 0 6% 0;
+    width: 34%;
+  }
+  .hero-section__text::after {
+    content: "";
+    display: block;
+    width: 158px;
+    height: 48px;
+    background-image: url(../../../img/hero-down-button-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 26vw;
   }
 }
 .footer {
@@ -565,11 +620,11 @@ html {
   }
 }
 .hero-container, .about-container {
-  height: 100vh;
+  height: max(821px, 100vh);
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 100% 100%;
 }
 
@@ -577,13 +632,29 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-container, .about-container {
+    height: 130vh;
+  }
+}
 @media screen and (min-width: 1024px) {
   .hero-container, .about-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
+    background-position: center;
   }
   .hero-container--margin {
     margin-bottom: 10%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-container, .about-container {
+    height: max(1024px, 120vh);
+    background-image: url(../../../img/Hero-BG-Desktop.png);
+    background-position: center;
+  }
+  .hero-container--margin {
+    margin-bottom: 5%;
   }
 }
 .about-container {
@@ -619,6 +690,45 @@ html {
   .hero-section__text {
     padding: 3% 0 6% 0;
     width: 40%;
+    position: relative;
+  }
+  .hero-section__text::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 44px;
+    background-image: url(../../../img/hero-down-button-tablet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 27vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    padding: 0 10%;
+  }
+  .hero-section__title {
+    font-size: 5.25rem;
+    line-height: 6.265rem;
+    width: 40%;
+    padding-top: 3.5%;
+  }
+  .hero-section__text {
+    font-size: 1.125rem;
+    padding: 3% 0 6% 0;
+    width: 34%;
+  }
+  .hero-section__text::after {
+    content: "";
+    display: block;
+    width: 158px;
+    height: 48px;
+    background-image: url(../../../img/hero-down-button-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 26vw;
   }
 }
 .about-section {
@@ -1087,11 +1197,11 @@ html {
   }
 }
 .hero-container, .about-container {
-  height: 100vh;
+  height: max(821px, 100vh);
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 100% 100%;
 }
 
@@ -1099,13 +1209,29 @@ html {
   margin-bottom: 15%;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-container, .about-container {
+    height: 130vh;
+  }
+}
 @media screen and (min-width: 1024px) {
   .hero-container, .about-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
+    background-position: center;
   }
   .hero-container--margin {
     margin-bottom: 10%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-container, .about-container {
+    height: max(1024px, 120vh);
+    background-image: url(../../../img/Hero-BG-Desktop.png);
+    background-position: center;
+  }
+  .hero-container--margin {
+    margin-bottom: 5%;
   }
 }
 .about-container {

@@ -9,6 +9,7 @@
         justify-content: center;
         background-color: $color-white;
         height: 23.4vh;
+        width: 83vw;
         border-radius: 24px;
         margin-bottom: 8%;
         box-shadow: 0px 0px 0px 1px $color-shadow, 0px 0px 50px 0px rgb(0, 0, 0, 0.1);
@@ -25,19 +26,24 @@
 
         &__experience {
             color: $color-body-light;
-            padding-top: 8%;
+            padding-top: 2vh;
         }
 
         &__link {
             & img {
-                padding-top: 8%;
+                padding-top: 2vh;
             }
         }
 
         &:hover {
-            background: url(../../../img/Jobs-card-selected.svg) no-repeat;
-            background-size: 100% 100%;
+            background-image: url(../../../img/Jobs-card-selected.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            background-color: $color-dark;
             width: 93vw;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
 
             & h5 {
                 color: $color-white;
@@ -70,6 +76,63 @@
                 width: 24px;
                 display: inline-block;
             }
+
+            @media screen and (max-width: 374px) {
+                gap: 1px;  
+            }
         }
+    }
+
+    & > .job-card:last-child {
+
+        & h5 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            &::after {
+                content: "";
+                background-image: url("../../../img/jobs-notification-2.svg");
+                background-repeat: no-repeat;
+                height: 25px;
+                width: 24px;
+                display: inline-block;
+            }
+
+            @media screen and (max-width: 374px) {
+                gap: 1px;  
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .jobs-cards {
+        padding: 0;
+    
+        .job-card {
+            height: 20.5vh;
+            width: 39vw;
+    
+            &:hover {
+                width: 49vw;
+    
+                & h5 {
+                    color: $color-white;
+                    font-size: 1.5rem;
+                }
+    
+                & p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .jobs-header__button {
+        background-image: url(../../../img/avaliable-jobs.svg);
+        width: 150px;
+        height: 44px;
+        display: block;
     }
 }

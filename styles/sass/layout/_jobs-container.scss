@@ -1,6 +1,28 @@
-@import "about-container";
-
 .jobs-container {
-    @extend .about-container;
     background-image: url("../../../img/Jobs-BG.svg");
+    background-size: cover;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100vw;
+}
+
+@media screen and (min-width: 1024px) {
+    .jobs-container {
+        background-image: none;
+    }
+
+    .jobs-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url("../../../img/Jobs-BG-Tablet.svg");
+        background-size: cover;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 100vw;
+        height: 84vw;
+        padding-top: 10vh;
+    }
+    
 }

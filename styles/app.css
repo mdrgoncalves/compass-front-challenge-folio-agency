@@ -124,7 +124,7 @@ html {
   font-weight: 600;
 }
 
-.hero-container, .about-container, .jobs-container {
+.hero-container, .about-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
@@ -138,7 +138,7 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container {
+  .hero-container, .about-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
   }
@@ -395,7 +395,7 @@ html {
   color: #ADADAD;
 }
 
-.hero-container, .about-container, .jobs-container {
+.hero-container, .about-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
@@ -409,7 +409,7 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container {
+  .hero-container, .about-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
   }
@@ -417,7 +417,7 @@ html {
     margin-bottom: 10%;
   }
 }
-.about-container, .jobs-container {
+.about-container {
   height: auto;
   background-image: none;
 }
@@ -917,7 +917,7 @@ html {
     width: 35vw;
   }
 }
-.hero-container, .about-container, .jobs-container {
+.hero-container, .about-container {
   height: 100vh;
   width: 100vw;
   background-image: url(../../../img/Hero-BG.svg);
@@ -931,7 +931,7 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container {
+  .hero-container, .about-container {
     height: 90vh;
     background-image: url(../../../img/Hero-BG-Tablet.svg);
   }
@@ -939,7 +939,7 @@ html {
     margin-bottom: 10%;
   }
 }
-.about-container, .jobs-container {
+.about-container {
   height: auto;
   background-image: none;
 }
@@ -1316,37 +1316,32 @@ html {
     margin-top: 7%;
   }
 }
-.hero-container, .about-container, .jobs-container {
-  height: 100vh;
-  width: 100vw;
-  background-image: url(../../../img/Hero-BG.svg);
+.jobs-container {
+  background-image: url("../../../img/Jobs-BG.svg");
+  background-size: cover;
+  background-position: 100% 35%;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100% 100%;
-}
-
-.hero-container--margin {
-  margin-bottom: 15%;
+  height: auto;
+  width: 100vw;
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-container, .about-container, .jobs-container {
-    height: 90vh;
-    background-image: url(../../../img/Hero-BG-Tablet.svg);
+  .jobs-container {
+    background-image: none;
   }
-  .hero-container--margin {
-    margin-bottom: 10%;
+  .jobs-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("../../../img/Jobs-BG-Tablet.svg");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100vw;
+    height: 84vw;
+    padding-top: 10vh;
   }
 }
-.about-container, .jobs-container {
-  height: auto;
-  background-image: none;
-}
-
-.jobs-container {
-  background-image: url("../../../img/Jobs-BG.svg");
-}
-
 .jobs-header {
   padding: 0 8.5%;
 }
@@ -1379,6 +1374,51 @@ html {
   color: #606060;
 }
 
+@media screen and (min-width: 1024px) {
+  .jobs-header {
+    padding: 1vh 8.5% 0 18vw;
+  }
+  .jobs-header__index {
+    color: #5468E7;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  .jobs-header__heading {
+    display: inline;
+    color: #5468E7;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  .jobs-header__button {
+    width: 26%;
+    margin-top: 10%;
+  }
+  .jobs-header__index {
+    font-size: 1rem;
+    position: relative;
+  }
+  .jobs-header__index::before {
+    content: "";
+    background-image: url(../../../../img/logo-symbol.svg);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 8vw;
+  }
+  .jobs-header__heading {
+    font-size: 1rem;
+    margin-left: 20px;
+  }
+  .jobs-header__title {
+    font-size: 4.75rem;
+    padding: 16% 10% 10% 0;
+  }
+  .jobs-header__text {
+    padding: 12% 0;
+    width: 100%;
+  }
+}
 .jobs-cards {
   padding: 10% 8.5% 3%;
 }
@@ -1388,6 +1428,7 @@ html {
   justify-content: center;
   background-color: #FFFFFF;
   height: 23.4vh;
+  width: 83vw;
   border-radius: 24px;
   margin-bottom: 8%;
   box-shadow: 0px 0px 0px 1px rgba(237, 237, 237, 0.5), 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
@@ -1402,15 +1443,20 @@ html {
 }
 .jobs-cards .job-card__experience {
   color: #606060;
-  padding-top: 8%;
+  padding-top: 2vh;
 }
 .jobs-cards .job-card__link img {
-  padding-top: 8%;
+  padding-top: 2vh;
 }
 .jobs-cards .job-card:hover {
-  background: url(../../../img/Jobs-card-selected.svg) no-repeat;
-  background-size: 100% 100%;
+  background-image: url(../../../img/Jobs-card-selected.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: #232340;
   width: 93vw;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 .jobs-cards .job-card:hover h5 {
   color: #FFFFFF;
@@ -1435,4 +1481,53 @@ html {
   height: 24px;
   width: 24px;
   display: inline-block;
+}
+@media screen and (max-width: 374px) {
+  .jobs-cards > .job-card:first-child h5 {
+    gap: 1px;
+  }
+}
+.jobs-cards > .job-card:last-child h5 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.jobs-cards > .job-card:last-child h5::after {
+  content: "";
+  background-image: url("../../../img/jobs-notification-2.svg");
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 24px;
+  display: inline-block;
+}
+@media screen and (max-width: 374px) {
+  .jobs-cards > .job-card:last-child h5 {
+    gap: 1px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .jobs-cards {
+    padding: 0;
+  }
+  .jobs-cards .job-card {
+    height: 20.5vh;
+    width: 39vw;
+  }
+  .jobs-cards .job-card:hover {
+    width: 49vw;
+  }
+  .jobs-cards .job-card:hover h5 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+  .jobs-cards .job-card:hover p {
+    font-size: 1rem;
+  }
+  .jobs-header__button {
+    background-image: url(../../../img/avaliable-jobs.svg);
+    width: 150px;
+    height: 44px;
+    display: block;
+  }
 }/*# sourceMappingURL=app.css.map */

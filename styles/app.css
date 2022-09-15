@@ -1037,22 +1037,6 @@ html {
     padding: 11% 8.5% 9% 24.5vw;
   }
   .services-header__index {
-    color: #5468E7;
-    font-size: 0.875rem;
-    font-weight: 600;
-  }
-  .services-header__heading {
-    display: inline;
-    color: #5468E7;
-    font-size: 0.875rem;
-    font-weight: 600;
-    margin-left: 20px;
-  }
-  .services-header__button {
-    width: 26%;
-    margin-top: 10%;
-  }
-  .services-header__index {
     font-size: 1rem;
     position: relative;
   }
@@ -1079,6 +1063,21 @@ html {
     position: absolute;
     top: 35vh;
     right: 8vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .services-header__index {
+    font-size: 1.125rem;
+  }
+  .services-header__heading {
+    font-size: 1.125rem;
+  }
+  .services-header__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .services-header__buttons {
+    top: 50vh;
   }
 }
 .services-objectives {
@@ -1166,6 +1165,16 @@ html {
   .services-objectives__card:hover {
     border-radius: 32px !important;
     transform: scale(1.1, 1.1);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .services-objectives {
+    margin: 0 8.5% 16%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .services-objectives__card {
+    height: 62vh;
   }
 }
 .services-achievement {
@@ -1263,6 +1272,25 @@ html {
   }
   .services-achievement__image {
     width: 35vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .services-achievement__index {
+    font-size: 1.125rem;
+  }
+  .services-achievement__heading {
+    font-size: 1.125rem;
+  }
+  .services-achievement__title {
+    font-size: 2rem;
+    font-weight: 2.5rem;
+    padding: 10% 0 20% 0;
+  }
+  .services-achievement__text {
+    font-size: 1.5rem;
+  }
+  .services-achievement__image {
+    height: 50vw;
   }
 }
 .hero-container, .about-container {

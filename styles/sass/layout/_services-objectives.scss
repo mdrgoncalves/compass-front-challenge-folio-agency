@@ -87,3 +87,15 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .services-objectives {
+        margin: 0 8.5% 16%;
+        display: flex;
+        justify-content: space-between;
+    
+        &__card {
+            height: 62vh;
+        }
+    }
+}

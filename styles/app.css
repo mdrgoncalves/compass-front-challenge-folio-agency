@@ -1827,6 +1827,28 @@ html {
     margin-top: 7%;
   }
 }
+@media screen and (min-width: 1440px) {
+  .cta-header {
+    padding: 17% 0 0 51.1%;
+  }
+  .cta-header__index {
+    font-size: 1.125rem;
+  }
+  .cta-header__heading {
+    font-size: 1.125rem;
+  }
+  .cta-header__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    padding: 6% 10% 0 0;
+    width: 52.5%;
+  }
+  .cta-header__button {
+    width: 20%;
+    margin-top: 7%;
+    padding: 20px 0px 20px 60px;
+  }
+}
 .jobs-container {
   background-image: url("../../../img/Jobs-BG.svg");
   background-size: cover;
@@ -1890,22 +1912,6 @@ html {
     padding: 1vh 8.5% 0 18vw;
   }
   .jobs-header__index {
-    color: #5468E7;
-    font-size: 0.875rem;
-    font-weight: 600;
-  }
-  .jobs-header__heading {
-    display: inline;
-    color: #5468E7;
-    font-size: 0.875rem;
-    font-weight: 600;
-    margin-left: 20px;
-  }
-  .jobs-header__button {
-    width: 26%;
-    margin-top: 10%;
-  }
-  .jobs-header__index {
     font-size: 1rem;
     position: relative;
   }
@@ -1928,6 +1934,21 @@ html {
   .jobs-header__text {
     padding: 12% 0;
     width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .jobs-header__index {
+    font-size: 1.125rem;
+  }
+  .jobs-header__heading {
+    font-size: 1.125rem;
+  }
+  .jobs-header__title {
+    font-size: 6.875rem;
+  }
+  .jobs-header__text {
+    font-size: 1.125rem;
+    line-height: 2rem;
   }
 }
 .jobs-cards {
@@ -2029,7 +2050,6 @@ html {
     width: 49vw;
   }
   .jobs-cards .job-card:hover h5 {
-    color: #FFFFFF;
     font-size: 1.5rem;
   }
   .jobs-cards .job-card:hover p {
@@ -2040,5 +2060,25 @@ html {
     width: 150px;
     height: 44px;
     display: block;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .jobs-cards .job-card__title {
+    font-size: 2rem;
+  }
+  .jobs-cards .job-card__title__experience {
+    font-size: 1.125rem;
+  }
+  .jobs-cards .job-card {
+    height: 26vh;
+  }
+  .jobs-cards .job-card:hover {
+    width: 49vw;
+  }
+  .jobs-cards .job-card:hover h5 {
+    font-size: 2rem;
+  }
+  .jobs-cards .job-card:hover p {
+    font-size: 1.125rem;
   }
 }/*# sourceMappingURL=app.css.map */

@@ -28,3 +28,223 @@
         padding-bottom: 10%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .portfolio {
+        padding: 0;
+
+        &__card--featured {
+            position: relative;
+
+            & .portfolio__content {
+                position: absolute;
+                top: 14vw;
+                margin-left: 8.5%;
+
+                &::before {
+                    content: "";
+                    background-image: url(../../../img/feature-button.svg);
+                    display: block;
+                    height: 29px;
+                    width: 151px;
+                    position: absolute;
+                    top: 5vh;
+                }
+
+                & > .portfolio__title {
+                    visibility: hidden;
+    
+                    &::before {
+                        visibility: visible;
+                        content: "Sapiens: The Free Character Builder App.";
+                        font-size: 2rem;
+                        line-height: 2.5rem;
+                        display: inline-block;
+                        width: 42%;
+                    }
+                }
+
+                & > .portfolio__text {
+                    visibility: hidden;
+
+                    &::before {
+                        visibility: visible;
+                        content: "Beautiful library of modular, component-based character illustrations free to use for all your personal or client projects.";
+                        display: inline-block;
+                        width: 25%;
+                        margin-top: -9vh;
+                    }
+                }
+            }
+
+            .circular-button--featured {
+                position: absolute;
+                top: 25vw;
+                right: 20vw;
+            }
+        }
+    
+        &__image--featured {
+            background-image: url(../../../img/Work-featured-card-Tablet.svg);
+            height: 71vw;
+            margin-top: -14.5vh;
+        }
+
+        &__card--flex {
+            display: flex;
+            flex-direction: column;
+
+            & > .portfolio__title {
+                order: -1;
+            }
+
+            & > .portfolio__text {
+                padding: 0;
+            }
+        }
+
+        .portfolio__card--first {
+            width: 50vw;
+            margin: -15vh 0 0 41.5vw;  
+            position: relative;    
+            
+            .portfolio__image--first {
+                background-image: url(../../../img/work-card2-bg.svg);
+                height: 40vw;
+            }
+
+            & > .portfolio__title {
+                font-size: 2rem;
+                margin-left: 23vw;
+                margin-bottom: -7vh;
+                visibility: hidden;
+
+                &::before {
+                    visibility: visible;
+                    content: "Bento Vol.2";
+                    position: absolute;
+                }
+            }
+
+            & > .portfolio__text {
+                margin-left: 23vw;
+                margin-top: -3vw;
+                width: 55%;
+            }
+
+            & > .circular-button-light {
+                position: absolute;
+                left: 47.5vw;
+                top: 30vw;
+            }
+        }
+
+        .portfolio__card--second {
+            width: 50vw;
+            margin: -40vh 0 0 8.5%;  
+            position: relative;
+            
+            .portfolio__image--second {
+                background-image: url(../../../img/work-card3-bg.svg);
+                height: 34.7vw;
+                width: 32vw;
+            }
+
+            & > .portfolio__title {
+                font-size: 2rem;
+                visibility: hidden;
+                margin-bottom: 3vh;
+
+                &::before {
+                    visibility: visible;
+                    content: "Bento 3D Illustration";
+                    position: absolute;
+                }
+            }
+
+            & > .portfolio__text {
+                width: 55%;
+                margin-top: 3vh;
+            }
+
+            & > .circular-button-light {
+                position: relative;
+                left: 29.3vw;
+                bottom: 18.5vw;
+            }
+        }
+
+        .portfolio__card--third {
+            width: 50vw;
+            margin: -20vh 0 0 50vw; 
+            position: relative;    
+            
+            .portfolio__image--third {
+                background-image: url(../../../img/work-card4-bg.svg);
+                height: 35.2vw;
+                width: 32vw;
+            }
+
+            & > .portfolio__title {
+                font-size: 2rem;
+                visibility: hidden;
+                margin-bottom: 3vh;
+
+                &::before {
+                    visibility: visible;
+                    content: "Bento Vol.3";
+                    position: absolute;
+                }
+            }
+
+            & > .portfolio__text {
+                width: 55%;
+                margin-top: 3vh;
+            }
+
+            & > .circular-button-light {
+                position: relative;
+                left: 29.3vw;
+                bottom: 20.5vw;
+            }
+        }
+
+        .portfolio__card--fourth {
+            width: 50vw;
+            margin: -55vh 0 0 16vw;
+            position: relative;    
+            
+            .portfolio__image--fourth {
+                background-image: url(../../../img/work-card5-bg.svg);
+                height: 35.2vw;
+                width: 25.4vw;
+            }
+
+            & > .portfolio__title {
+                font-size: 2rem;
+                visibility: hidden;
+                margin-bottom: 3vh;
+
+                &::before {
+                    visibility: visible;
+                    content: "Sapiens Man";
+                    position: absolute;
+                }
+            }
+
+            & > .portfolio__text {
+                width: 55%;
+                margin-top: 3vh;
+            }
+
+            & > .circular-button-light {
+                position: relative;
+                left: 22.8vw;
+                bottom: 22vw;
+            }
+        }
+
+    }
+
+
+}

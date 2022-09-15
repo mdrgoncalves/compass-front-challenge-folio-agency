@@ -113,6 +113,13 @@ html {
     left: 78vw;
   }
 }
+@media screen and (min-width: 1024px) {
+  .work__button {
+    padding: 15px 10px !important;
+    top: 30vh;
+    left: 78vw;
+  }
+}
 .button, .footer .footer-contact .light-button, .light-button {
   background-color: #5468E7;
   padding: 1rem 2.5rem;
@@ -285,6 +292,14 @@ html {
   }
   .menu .menu-social {
     display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .menu .menu-list__link:nth-child(2) {
+    margin-left: 5vw;
+  }
+  .menu .menu-list__link--notification {
+    margin-right: 10vw;
   }
 }
 .hero-section {
@@ -1354,6 +1369,24 @@ html {
     width: 45%;
   }
 }
+@media screen and (min-width: 1440px) {
+  .work-header__index {
+    font-size: 1.125rem;
+  }
+  .work-header__heading {
+    font-size: 1.125rem;
+  }
+  .work-header__title {
+    font-size: 5.25rem;
+    line-height: 6.265rem;
+    padding: 3% 10% 0 0;
+  }
+  .work-header__text {
+    font-size: 1.125rem;
+    padding: 3% 0;
+    width: 45%;
+  }
+}
 .portfolio {
   padding: 12% 8.5% 0;
 }
@@ -1361,55 +1394,85 @@ html {
   background-image: url("../../../img/featured-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 45vh;
+  background-size: contain;
+  height: 95vw;
   width: 100%;
   border-radius: 17.07px;
+}
+@media screen and (min-width: 1024px) {
+  .portfolio__image--featured {
+    background-size: cover;
+  }
 }
 .portfolio__image--first {
   background-image: url("../../../img/first-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 45vh;
+  background-size: contain;
+  height: 95vw;
   width: 100%;
   border-radius: 17.07px;
+}
+@media screen and (min-width: 1024px) {
+  .portfolio__image--first {
+    background-size: cover;
+  }
 }
 .portfolio__image--second {
   background-image: url("../../../img/second-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 45vh;
+  background-size: contain;
+  height: 95vw;
   width: 100%;
   border-radius: 17.07px;
+}
+@media screen and (min-width: 1024px) {
+  .portfolio__image--second {
+    background-size: cover;
+  }
 }
 .portfolio__image--third {
   background-image: url("../../../img/third-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 45vh;
+  background-size: contain;
+  height: 95vw;
   width: 100%;
   border-radius: 17.07px;
+}
+@media screen and (min-width: 1024px) {
+  .portfolio__image--third {
+    background-size: cover;
+  }
 }
 .portfolio__image--fourth {
   background-image: url("../../../img/fourth-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 45vh;
+  background-size: contain;
+  height: 95vw;
   width: 100%;
   border-radius: 17.07px;
+}
+@media screen and (min-width: 1024px) {
+  .portfolio__image--fourth {
+    background-size: cover;
+  }
 }
 .portfolio__image--fifth {
   background-image: url("../../../img/fifth-image.svg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 45vh;
+  background-size: contain;
+  height: 95vw;
   width: 100%;
   border-radius: 17.07px;
+}
+@media screen and (min-width: 1024px) {
+  .portfolio__image--fifth {
+    background-size: cover;
+  }
 }
 .portfolio__title {
   font-size: 1.5rem;
@@ -1603,6 +1666,77 @@ html {
     position: relative;
     left: 22.8vw;
     bottom: 22vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .portfolio__card--featured .portfolio__content::before {
+    top: 9vh;
+  }
+  .portfolio__card--featured .portfolio__content > .portfolio__title::before {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: 31%;
+  }
+  .portfolio__card--featured .portfolio__content > .portfolio__text::before {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    width: 17%;
+    margin-top: -12vh;
+  }
+  .portfolio__card--featured .circular-button--featured {
+    right: 21.2vw;
+  }
+  .portfolio .portfolio__card--first > .portfolio__title::before {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    top: 5vh;
+  }
+  .portfolio .portfolio__card--first > .portfolio__text {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+  .portfolio .portfolio__card--first > .circular-button-light {
+    left: 48.2vw;
+    top: 28vw;
+  }
+  .portfolio .portfolio__card--second > .portfolio__title::before {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    top: 5vh;
+  }
+  .portfolio .portfolio__card--second > .portfolio__text {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+  .portfolio .portfolio__card--second > .circular-button-light {
+    left: 30.2vw;
+    bottom: 14.5vw;
+  }
+  .portfolio .portfolio__card--third > .portfolio__title::before {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    top: 5vh;
+  }
+  .portfolio .portfolio__card--third > .portfolio__text {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+  .portfolio .portfolio__card--third > .circular-button-light {
+    left: 30vw;
+    bottom: 15.5vw;
+  }
+  .portfolio .portfolio__card--fourth > .portfolio__title::before {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    top: 5vh;
+  }
+  .portfolio .portfolio__card--fourth > .portfolio__text {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+  .portfolio .portfolio__card--fourth > .circular-button-light {
+    left: 23.5vw;
+    bottom: 15vw;
   }
 }
 .cta-section {

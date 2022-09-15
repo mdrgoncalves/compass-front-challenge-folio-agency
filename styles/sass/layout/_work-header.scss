@@ -55,3 +55,28 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .work-header {
+
+        &__index {
+            font-size: 1.125rem;
+        }
+    
+        &__heading {
+            font-size: 1.125rem;
+        }
+    
+        &__title {
+            font-size: 5.25rem;
+            line-height: 6.265rem;
+            padding: 3% 10% 0 0;
+        }
+    
+        &__text {
+            font-size: 1.125rem;
+            padding: 3% 0;
+            width: 45%;
+        }
+    }
+}

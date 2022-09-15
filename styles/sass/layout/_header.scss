@@ -146,6 +146,24 @@
             display: none;
         }
     }
+}
 
+@media screen and (min-width: 1440px) {
 
+    .menu {
+    
+        .menu-list {
+    
+            &__link {
+
+                &:nth-child(2) {
+                    margin-left: 5vw;
+                }
+
+                &--notification {
+                    margin-right: 10vw;
+                }
+            }
+        }
+    }
 }

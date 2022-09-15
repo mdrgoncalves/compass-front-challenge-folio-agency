@@ -245,6 +245,130 @@
         }
 
     }
+}
 
+@media screen and (min-width: 1440px) {
+    .portfolio {
 
+        &__card--featured {
+
+            & .portfolio__content {
+
+                &::before {
+                    top: 9vh;
+                }
+
+                & > .portfolio__title {
+
+                    &::before {
+                        font-size: 2.5rem;
+                        line-height: 3rem;
+                        width: 31%;
+                    }
+                }
+
+                & > .portfolio__text {
+
+                    &::before {
+                        font-size: 1.125rem;
+                        line-height: 2rem;
+                        width: 17%;
+                        margin-top: -12vh;
+                    }
+                }
+            }
+
+            .circular-button--featured {
+                right: 21.2vw;
+            }
+        }
+
+        .portfolio__card--first { 
+
+            & > .portfolio__title {
+
+                &::before {
+                    font-size: 2.5rem;
+                    line-height: 3rem;  
+                    top: 5vh;
+                }
+            }
+
+            & > .portfolio__text {
+                font-size: 1.125rem;
+                line-height: 2rem;
+            }
+
+            & > .circular-button-light {
+                left: 48.2vw;
+                top: 28vw;
+            }
+        }
+
+        .portfolio__card--second {
+
+            & > .portfolio__title {
+
+                &::before {
+                    font-size: 2.5rem;
+                    line-height: 3rem;  
+                    top: 5vh;
+                }
+            }
+
+            & > .portfolio__text {
+                font-size: 1.125rem;
+                line-height: 2rem;
+            }
+
+            & > .circular-button-light {
+                left: 30.2vw;
+                bottom: 14.5vw;
+            }
+        }
+
+        .portfolio__card--third {
+
+            & > .portfolio__title {
+
+                &::before {
+                    font-size: 2.5rem;
+                    line-height: 3rem;  
+                    top: 5vh;
+                }
+            }
+
+            & > .portfolio__text {
+                font-size: 1.125rem;
+                line-height: 2rem;
+            }
+
+            & > .circular-button-light {
+                left: 30vw;
+                bottom: 15.5vw;
+            }
+        }
+
+        .portfolio__card--fourth {
+
+            & > .portfolio__title {
+
+                &::before {
+                    font-size: 2.5rem;
+                    line-height: 3rem;  
+                    top: 5vh;
+                }
+            }
+
+            & > .portfolio__text {
+                font-size: 1.125rem;
+                line-height: 2rem;
+            }
+
+            & > .circular-button-light {
+                left: 23.5vw;
+                bottom: 15vw;
+            }
+        }
+    }
 }

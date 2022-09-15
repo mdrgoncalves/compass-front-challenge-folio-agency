@@ -6,3 +6,16 @@
     height: auto;
     width: 100vw;
 }
+
+@media screen and (min-width: 1024px) {
+    .services-container {
+        background-image: none;
+    }
+
+    .services-section {
+        background-image: url(../../../img/Services-BG-Tablet.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+}

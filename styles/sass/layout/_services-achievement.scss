@@ -45,3 +45,58 @@
         width: 85vw;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .services-achievement {
+        margin: 0 8.5%;
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-areas: 
+            "achievement-image achievement-content"
+            "achievement-image achievement-content"
+            "achievement-image achievement-content"; 
+
+        &__content {
+            grid-area: achievement-content;
+            margin-top: 7vh;
+        }
+
+        &__index {
+            font-size: 1rem;
+            padding-top: 10px;
+            position: relative;
+            margin-left: 13vw;
+
+            &::before {
+                content: "";
+                background-image: url(../../../img/logo-symbol.svg);
+                height: 24px;
+                width: 24px;
+                position: absolute;
+                left: -130px;
+                bottom: 0px;
+            }
+        }
+
+        &__heading {
+            font-size: 1rem;
+        }
+    
+        &__title {
+            padding: 10% 0 20% 0;
+        }
+    
+        &__text {
+            font-size: 1.125rem;
+        }
+    
+        &__carousel {
+            grid-area: achievement-image;
+        }
+    
+        &__image {
+            width: 35vw;
+        }
+    }
+}

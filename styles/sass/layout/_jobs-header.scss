@@ -19,3 +19,40 @@
         color: $color-body-light;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .jobs-header {
+        padding: 1vh 8.5% 0 18vw;
+
+        @include heading($color-button, $color-button);
+    
+        &__index {
+            font-size: 1rem;
+            position: relative;
+
+            &::before {
+                content: "";
+                background-image: url(../../../../img/logo-symbol.svg);
+                height: 24px;
+                width: 24px;
+                position: absolute;
+                right: 8vw;
+            }
+        }
+    
+        &__heading {
+            font-size: 1rem;
+            margin-left: 20px;
+        }
+    
+        &__title {
+            font-size: 4.75rem;
+            padding: 16% 10% 10% 0;
+        }
+    
+        &__text {
+            padding: 12% 0;
+            width: 100%;
+        }
+    }
+}

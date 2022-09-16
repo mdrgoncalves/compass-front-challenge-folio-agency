@@ -203,12 +203,22 @@ html {
   flex-direction: column;
   padding: 15vh 8.5% 0;
 }
+@media screen and (min-width: 768px) {
+  .menu .menu-list {
+    padding: 5vh 8.5% 0;
+  }
+}
 .menu .menu-list__link {
   color: #595976;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 700;
   padding-bottom: 15%;
+}
+@media screen and (min-width: 768px) {
+  .menu .menu-list__link {
+    padding-bottom: 10%;
+  }
 }
 .menu .menu-list__link--active {
   color: #FFFFFF;
@@ -219,6 +229,11 @@ html {
 .menu .menu-social {
   display: flex;
   padding: 15vh 8.5%;
+}
+@media screen and (min-width: 768px) {
+  .menu .menu-social {
+    padding: 10vh 8.5% 0 8.5%;
+  }
 }
 .menu .menu-social__item:not(:first-child) {
   margin-left: 2rem;

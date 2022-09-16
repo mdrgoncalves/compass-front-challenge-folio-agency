@@ -393,7 +393,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: inline-block;
-  margin: 12.8% 0 0 15%;
+  margin: 12.8% 0 0 9vw;
 }
 .footer .footer-contact__text {
   color: #FFFFFF;
@@ -541,6 +541,7 @@ html {
     flex-direction: column;
     align-items: center;
     padding-top: 10%;
+    position: relative;
   }
   .footer .footer-contact__text::before {
     content: "";
@@ -549,6 +550,12 @@ html {
     width: 24px;
     display: block;
     margin-bottom: 3vh;
+  }
+  .footer .footer-contact__text::after {
+    content: "👋";
+    position: absolute;
+    bottom: 0px;
+    right: min(44vw + 10px, 45vw);
   }
   .footer .footer-contact__subtitle {
     padding: 5% 12% 10% 12%;
@@ -638,6 +645,50 @@ html {
   }
   .footer-tablet__social-item:first-child a {
     text-decoration: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer .footer-contact {
+    background-image: url(../../../img/Footer-BG-Desktop.png);
+  }
+  .footer .footer-contact__design .footer-design__text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .footer .footer-contact__design .footer-design__button {
+    margin: 0 0 20px 40px;
+  }
+  .footer .footer-contact__text {
+    font-size: 1.125rem;
+  }
+  .footer .footer-contact__subtitle {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 40%;
+  }
+  .footer .footer-contact__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    padding: 15% 10% 24.5% 30%;
+  }
+  .footer-tablet {
+    height: 28vw;
+  }
+  .footer-tablet__text {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    width: 40%;
+    margin: 5vh auto;
+  }
+  .footer-tablet__item a {
+    font-size: 1.125rem;
+  }
+  .footer-tablet__copyright {
+    font-size: 0.875rem;
+  }
+  .footer-tablet__social-item:first-child {
+    font-size: 0.875rem;
+    font-weight: 600;
   }
 }
 .hero-container, .about-container {
@@ -1808,6 +1859,12 @@ html {
   padding: 10% 10% 0 0;
 }
 
+@media screen and (max-width: 359px) {
+  .cta-header__button {
+    width: 35%;
+    padding: 20px 10px 20px 7vw;
+  }
+}
 @media screen and (min-width: 1024px) {
   .cta-header {
     padding: 17% 0 0 52.1%;

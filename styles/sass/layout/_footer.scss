@@ -22,7 +22,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             display: inline-block;
-            margin: 12.8% 0 0 15%;
+            margin: 12.8% 0 0 9vw;
         }
 
         &__text {
@@ -183,6 +183,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-top: 10%;
+                position: relative;
 
                 &::before {
                     content: "";
@@ -191,6 +192,13 @@
                     width: 24px;
                     display: block;
                     margin-bottom: 3vh;
+                }
+
+                &::after {
+                    content: "👋";
+                    position: absolute;
+                    bottom: 0px;
+                    right: min(calc(44vw + 10px), 45vw);
                 }
             }
     
@@ -300,6 +308,73 @@
                     & a {
                         text-decoration: none;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer {
+            
+        .footer-contact {
+            background-image: url(../../../img/Footer-BG-Desktop.png);
+        
+            &__design {
+
+                .footer-design__text {
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                }
+
+                .footer-design__button {
+                    margin: 0 0 20px 40px;
+                }
+            }
+    
+            &__text {
+                font-size: 1.125rem;
+            }
+    
+            &__subtitle {
+                font-size: 2rem;
+                line-height: 2.5rem;
+                width: 40%;
+            }
+
+            &__title {
+                font-size: 4rem;
+                line-height: 4.5rem;
+                padding: 15% 10% 24.5% 30%;
+            }
+        }
+
+        &-tablet {
+            height: 28vw;   
+
+            &__text {
+                font-size: 1.125rem;
+                line-height: 2rem;
+                width: 40%;
+                margin: 5vh auto;
+            }
+
+            &__item {
+                & a {
+                    font-size: 1.125rem;
+                }
+            }
+
+            &__copyright {
+                font-size: 0.875rem;
+            }
+
+
+            &__social-item {
+
+                &:first-child {
+                    font-size: 0.875rem;
+                    font-weight: 600;
                 }
             }
         }

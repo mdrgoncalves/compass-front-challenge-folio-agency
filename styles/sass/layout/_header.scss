@@ -61,6 +61,21 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .menu-list {
+        padding: 5vh 8.5% 0 !important;
+
+        &__link {
+            padding-bottom: 10% !important;
+        }
+    }
+
+    .menu-social {
+        padding: 10vh 8.5% 0 8.5% !important;
+    }
+}
+
+
 @media screen and (min-width: 1024px) {
     
     .header {

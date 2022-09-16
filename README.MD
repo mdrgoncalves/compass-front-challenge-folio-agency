@@ -4,7 +4,6 @@
 
 <p align="center">
  • <a href="#-about">About</a> 
- • <a href="#-layout">Layout</a>  
  • <a href="#-tech-stack">Tech Stack</a>  
 </p>
 
@@ -14,13 +13,11 @@ Folio Agency - Front-end challenge for Compass.Uol Scholarship Program.
 
 ---
 
-## 🎨 Layout
-
-
----
-
-
 ## 🛠 Tech Stack
 
 The following tools were used in the construction of the project:
+
+-   **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)**
+-   **[SASS](https://sass-lang.com/)**
+-   **[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
 
